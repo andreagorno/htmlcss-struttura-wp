@@ -19,24 +19,24 @@ footer {
     background-color: #8801FE;
 }
 
-main > div {
+.nav {
     height: 15%;
     background-color: #ABCFE7;
 }
 
-div + aside {
+.left {
     width: 18%;
     height: 75%;
     background-color: #ABCFE7;
 }
 
-aside + section {
+.center {
     width: 60%;
     height: 75%;
     background-color: #ABCFE7; 
 }
 
-section + aside {
+.right {
     width: 18%;
     height: 75%;
     background-color: #ABCFE7;
@@ -70,20 +70,20 @@ main::after {
     clear: both;
 }
 
-main > div {
+.nav {
     margin-bottom: 2.5%;
 }
 
-div + aside {
+.left {
     float: left;
 }
 
-aside + section {
+.center {
     float: left; 
     margin-left: 2%; 
 }
 
-section + aside {
+.right {
     float: right;
     margin-left: 2%;
 }
