@@ -1,8 +1,8 @@
 /* debug */
-nav {
+/* nav {
     height: 125px;
     background-color: #E579E6;
-}
+} */
 
 .jumbotron {
     height: 300px;
@@ -28,7 +28,7 @@ main {
 .col-center {
     width: 60%;
     height: 350px;
-    background-color: #ABCFE7; 
+    background-color: #ABCFE7;
 }
 
 .col-right {
@@ -42,10 +42,16 @@ footer {
     background-color: #8801FE;
 }
 /* /debug */
+
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
 }
 
 .container {
@@ -53,13 +59,38 @@ footer {
     margin: 30px auto;
 }
 
+/* header */
+#logo-container {
+    height: 80px;
+}
+
 nav {
     margin-bottom: 20px;
+}
+
+.list-line > li {
+    display: inline-block;
+    list-style: none;
+    padding: 10px 10px 10px 0;
+}
+
+.list-line li:hover > a {
+    /* background-color: hotpink; */
+    color: black;
+    cursor: pointer;
+}
+
+.list-line a {
+    font-size: 18px;
+    color: grey;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 .jumbotron {
     margin-bottom: 20px;
 }
+/* /header */
 
 main {
     margin-bottom: 10px;
@@ -80,8 +111,8 @@ main::after {
 }
 
 .col-center {
-    float: left; 
-    margin:0 2%; 
+    float: left;
+    margin:0 2%;
 }
 
 .col-right {
